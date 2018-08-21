@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 /**
- *  Email sender and other beans are incorporated at the service level so we will declare here.
+ * Email sender and other beans are incorporated at the service level so we will declare here.
  */
 @Configuration
 @ComponentScan(basePackages = {"com.yash"})
