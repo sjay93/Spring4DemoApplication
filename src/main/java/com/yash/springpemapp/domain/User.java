@@ -1,6 +1,5 @@
 package com.yash.springpemapp.domain;
 
-
 public class User {
 
     private int userId;
@@ -12,7 +11,6 @@ public class User {
     private int role;
     private int status;
 
-
     public int getUserId() {
         return userId;
     }
@@ -20,7 +18,6 @@ public class User {
     public void setUserId(int userId) {
         this.userId = userId;
     }
-
 
     public String getName() {
         return name;
@@ -30,7 +27,6 @@ public class User {
         this.name = name;
     }
 
-
     public String getPhone() {
         return phone;
     }
@@ -38,7 +34,6 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
 
     public String getEmail() {
         return email;
@@ -48,7 +43,6 @@ public class User {
         this.email = email;
     }
 
-
     public String getLoginName() {
         return loginName;
     }
@@ -56,7 +50,6 @@ public class User {
     public void setLoginName(String loginName) {
         this.loginName = loginName;
     }
-
 
     public String getPassword() {
         return password;
@@ -66,7 +59,6 @@ public class User {
         this.password = password;
     }
 
-
     public long getRole() {
         return role;
     }
@@ -75,7 +67,6 @@ public class User {
         this.role = role;
     }
 
-
     public long getStatus() {
         return status;
     }
@@ -83,5 +74,4 @@ public class User {
     public void setStatus(int status) {
         this.status = status;
     }
-
 }

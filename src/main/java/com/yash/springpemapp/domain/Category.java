@@ -6,7 +6,6 @@ public class Category {
     private int userId;
     private String name;
 
-
     public int getId() {
         return id;
     }
@@ -14,7 +13,6 @@ public class Category {
     public void setId(int id) {
         this.id = id;
     }
-
 
     public int getUserId() {
         return userId;
@@ -24,7 +22,6 @@ public class Category {
         this.userId = userId;
     }
 
-
     public String getName() {
         return name;
     }
@@ -32,5 +29,4 @@ public class Category {
     public void setName(String name) {
         this.name = name;
     }
-
 }

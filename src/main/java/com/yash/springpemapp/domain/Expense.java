@@ -7,10 +7,9 @@ public class Expense {
 
     private int id;
     private int categoryId;
-    private double amount;
+    private float amount;
     private Date date;
     private String remark;
-
 
     public int getId() {
         return id;
@@ -20,7 +19,6 @@ public class Expense {
         this.id = id;
     }
 
-
     public int getCategoryId() {
         return categoryId;
     }
@@ -29,15 +27,13 @@ public class Expense {
         this.categoryId = categoryId;
     }
 
-
-    public double getAmount() {
+    public float getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(float amount) {
         this.amount = amount;
     }
-
 
     public Date getDate() {
         return date;
@@ -47,7 +43,6 @@ public class Expense {
         this.date = date;
     }
 
-
     public String getRemark() {
         return remark;
     }
@@ -55,5 +50,4 @@ public class Expense {
     public void setRemark(String remark) {
         this.remark = remark;
     }
-
 }
